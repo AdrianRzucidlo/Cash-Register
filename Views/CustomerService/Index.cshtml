@@ -1,0 +1,24 @@
+﻿@model WebApplication2.Models.ProductsCartVM
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            @{
+                Html.RenderPartial("DisplayProducts", Model.Products);
+            }
+        </div>
+        <div class="col">
+            @{
+                Html.RenderPartial("DisplayBons", Model.Bons);
+            }
+        </div>
+    </div>
+    <div class="row">
+        @{
+            Html.RenderPartial("DisplayCart", Model.Cart);
+        }
+    </div>
+</div>
