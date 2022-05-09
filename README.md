@@ -1,6 +1,6 @@
 # Projekt na Programowanie Obiektowe
 # Oprogramowanie dla kas fiskalnych
-
+#Wraz z https://github.com/pprzybylska
 
 1. Krotka charakterystyka produktu:
 - System będzie wykorzystywany do obsługi klientów, zarządzania bazą produktów oraz posiadał bazę kont kasjerów.
